@@ -3,7 +3,7 @@ require "ember_cli/assets/errors"
 module EmberCli
   module Assets
     class AssetMap
-      def initialize(name:, asset_map:)
+      def initialize(name: nil, asset_map: nil)
         @name = name
         @asset_map = asset_map
       end
